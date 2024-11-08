@@ -1,7 +1,7 @@
 name: hello world
 on: push
 jobs:
-  print information:
+  printinformation:
     runs-on: ubuntu-latest
      steps: 
        - name: print hello world
