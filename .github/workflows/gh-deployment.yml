@@ -1,0 +1,14 @@
+name: deploy react app
+on: push
+jobs:
+  deploy-react-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cloned repository
+        uses: action/checkout@v4
+      - name: install npm packages
+        run: npm install
+      - name: rum npm
+        run: run npm build
+      - name: test npm
+        run: npm run test
