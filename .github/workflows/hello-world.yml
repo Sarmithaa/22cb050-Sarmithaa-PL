@@ -3,7 +3,7 @@ on: push
 jobs:
   printinformation:
     runs-on: ubuntu-latest
-     steps: 
+    steps: 
        - name: print hello world
          run: echo "hello world"
        - name: print Registration No
